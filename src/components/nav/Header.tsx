@@ -7,7 +7,7 @@ export const Header = () => {
   return (
     <header className="h-[72px] px-4 flex items-center justify-between sticky top-0 z-20 bg-zinc-900 backdrop-blur-lg">
       <MyLinks />
-      <Link target="_blank" href={"/saiResume.pdf"}>
+      <Link target="_blank" href={"/Resume.pdf"}>
         <OutlineButton>
           My Resume
         </OutlineButton>
