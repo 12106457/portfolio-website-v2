@@ -81,7 +81,7 @@ export const ProjectModal = ({
               src={imgSrc}
               alt={`An image of the ${title} project.`}
               layout="fill"
-              objectFit="cover"
+              objectFit=""
               className=""
               style={{
                 transformOrigin: "center",

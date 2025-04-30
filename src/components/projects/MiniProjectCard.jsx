@@ -22,7 +22,7 @@ const MiniProjectCard = ({ project }) => {
 
       <div className="p-3">
         <h3 className="font-bold text-lg ">{project.name}</h3>
-        <p className="text-pri-gray leading-5">{project.description}</p>
+        <p className="text-pri-gray leading-5 text-gray-50 text-xs mt-2">{project.description}</p>
         <div className="flex justify-between mt-4">
           {/* {project.live_link && (
             <Link target="_blank" className=" " href={project.live_link}>

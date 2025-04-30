@@ -63,6 +63,94 @@ export const Projects = () => {
 
 const projects = [
   {
+    title: "Media Project Management Dashboard",
+    imgSrc: "/worksImages/mediaProject/loginPage.png",
+    ytVidSrc:
+      "https://www.youtube.com/embed/jgzu712sn9s?si=inCzUASP9z7NrJPQ&autoplay=1&mute=1&loop=1&cc_load_policy=0",
+    code: "https://github.com/12106457/skailama-MERN-Assignment",
+    projectLink: "https://skailama-assigment-client.vercel.app/",
+    tech: ["Media Project Management Platform", "MERN Stack"],
+    techStack: ["React", "Node JS", "Express JS", "Mongo DB"],
+    description:
+      "This is a full-stack Media Project Management Web Application designed for users to upload, manage, and edit multimedia files across multiple projects with an intuitive interface and secure user authentication.",
+    modalContent: (
+      <>
+        <p>
+          This project is a full-stack Media Project Management Dashboard that
+          enables users to seamlessly manage multimedia files across multiple
+          projects. It starts with a secure login and registration system,
+          allowing each user to create and access their personalized dashboard.
+          The dashboard showcases all the user’s projects in a card layout,
+          where each card displays a project image, title, the number of
+          uploaded files, and the last edited date — giving a clear and quick
+          overview of ongoing work.
+        </p>{" "}
+        <p>
+          Upon selecting a project, the user is navigated to a dedicated
+          workspace with a split-screen layout: a left-side sidebar for easy
+          navigation and a right-side main content area. This main section
+          features a top navigation bar and powerful upload functionalities.
+          Users can upload files either directly from their device, through
+          feeds, or via YouTube links. The upload process is managed via a modal
+          popup, where users can enter the file name, provide a transcription,
+          and submit the file. All uploaded files are displayed in a table
+          format with options to view, delete, or edit the file contents,
+          ensuring full control over project resources.
+        </p>{" "}
+        <p>
+          Additionally, the application provides an account settings section,
+          allowing users to manage personal information such as name and
+          password. The overall design focuses on usability, clean structure,
+          and performance, making it ideal for content creators, educators, or
+          businesses handling large volumes of multimedia content. With features
+          like real-time file management, project-based organization, and user
+          customization, this platform streamlines the entire media project
+          workflow in one place.
+        </p>{" "}
+      </>
+    ),
+  },
+  {
+    title: "AI Chat Interface Prototype",
+    imgSrc: "/worksImages/claude-ai/dashboard.png",
+    ytVidSrc: "",
+    code: "https://github.com/12106457/Claude-ai-clone",
+    projectLink: "https://claude-ai-clone-peach.vercel.app/",
+    tech: ["AI Chat Interface", "Google authentication"],
+    techStack: ["HTML", "CSS", "JavaScript", "React"],
+    description:
+      "This is a Claude.ai-inspired AI Chat Dashboard built as a prototype for a company. It includes Google login, a split-screen UI with chat history and user profile on the left, and a responsive AI chat interface on the right. Users can view past chats, interact with AI, and manage their profile details.",
+    modalContent: (
+      <>
+        <p>
+          This project is a Claude.ai-style Conversational AI Dashboard, created
+          as a functional prototype for a company. It offers seamless Google
+          authentication for user login and registration, ensuring quick and
+          secure access. Once logged in, users land on a clean, intuitive
+          interface divided into two main sections to mirror the familiar
+          experience of modern AI chat platforms like ChatGPT and Claude.
+        </p>{" "}
+        <p>
+          The left panel provides users with a searchable history of their
+          previous queries and responses, allowing them to revisit past
+          conversations easily. Below that, a profile section displays user
+          information, including access to personal details and settings. On the
+          right panel, users interact with a responsive chat box that accepts
+          queries and returns AI-generated responses in real time. The layout is
+          designed for clarity and smooth usability, ensuring a seamless
+          conversational experience.
+        </p>{" "}
+        <p>
+          Built with scalability in mind, this prototype demonstrates a
+          practical, user-focused approach to AI interaction. It highlights key
+          features like session management, user personalization, and real-time
+          data handling — making it suitable for enterprise-grade integration or
+          expansion into a full-scale product.
+        </p>{" "}
+      </>
+    ),
+  },
+  {
     title: "Nutrify",
     imgSrc: "/worksImages/Nutrify/home.png",
     ytVidSrc: "",
@@ -144,20 +232,22 @@ export const miniProjects = [
   {
     img: "",
     name: "Online Quiz Platform",
-    description: "",
+    description:
+      "The Online Quiz Platform is a secure web-based testing system that begins with a login page and a pre-exam environment check to ensure all required test conditions are met. Only after passing this check can users access the quiz interface. Upon completing and submitting the test, the platform automatically calculates the score and sends the results to the user’s registered email address, making it an efficient and user-friendly solution for online assessments.",
     live_link: "",
     github_link: "https://github.com/12106457/Online_Quiz_Platform",
-    skills: ["React JS", "Node Js", "Express JS","MongoDB"],
+    skills: ["React JS", "Node Js", "Express JS", "MongoDB"],
     live_icon: "/assets/icons/figmaIcon.png",
   },
 
   {
     img: "",
     name: "Blood Donation Website",
-    description: "",
+    description:
+      "The Blood Donation Website is a life-saving platform where users can register as donors and also request blood when in need. The main features include donor registration, searching for available blood types in a specific location, and requesting blood units from registered donors. It simplifies the process of finding and connecting with compatible donors during emergencies, making blood donation more accessible, efficient, and community-driven.",
     live_link: "",
     github_link: "https://github.com/12106457/Blood_donation_website",
-    skills: ["HTML", "CSS","Javascript","Bootstrap"],
+    skills: ["HTML", "CSS", "Javascript", "Bootstrap"],
     live_icon: "",
   },
   {

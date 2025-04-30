@@ -111,7 +111,7 @@ export const Project = ({
             <div className="flex items-center gap-2 w-full">
               <h4
                 onClick={() => setIsOpen(true)}
-                className="font-bold text-lg shrink-0 hover:underline decoration-dotted max-w-[calc(100%_-_150px)] cursor-pointer"
+                className="font-bold text-lg shrink-0 hover:underline decoration-dotted max-w-[calc(100%_-_200px)] cursor-pointer"
               >
                 {title}
               </h4>
