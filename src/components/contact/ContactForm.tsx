@@ -204,7 +204,7 @@ const Summary = ({ questions, setQuestions }: SummaryProps) => {
     );
 
     // Extracting specific fields from formData
-    const toAddress = " mohithkumar808@gmail.com"; // Fixed recipient email address
+    const toAddress = "kedarisettysai440@gmail.com"; // Fixed recipient email address
     const subject = formData["subject"] || ""; // Default to empty string if 'subject' is not found
     const body = formData["description"] || ""; // Default to empty string if 'description' is not found
 
