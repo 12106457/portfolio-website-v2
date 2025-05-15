@@ -18,7 +18,7 @@ export const Contact = () => {
           <p className="text-center my-8 text-zinc-300 leading-relaxed">
             Shoot me an email if you want to connect! You can also find me on{" "}
             <Link
-              href="https://www.linkedin.com/in/mohith-kumar-chaluvadi/"
+              href=""
               target="_blank"
               className="text-rose-300 hover:underline"
             >
@@ -28,7 +28,7 @@ export const Contact = () => {
           </p>
         </Reveal>
         <Reveal width="w-full">
-          <Link href="mailto: mohithkumar808@gmail.com">
+          <Link href="mailto: kedarisettysai440@gmail.com">
             <div className="flex items-center justify-center gap-2 w-fit text-lg md:text-2xl whitespace-normal mx-auto hover:text-rose-300 transition-colors">
               <AiFillMail />
               <span> mohithkumar808@gmail.com</span>
