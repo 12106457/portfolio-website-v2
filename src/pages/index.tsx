@@ -17,6 +17,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="author" content="Sai kedarisetti" />
         <meta name="robots" content="index, follow" />
+        <meta name="google-site-verification" content="CcasZgQ1yPtXt--VUFSpy8Qf1cYA36ZKI0yZWD76sfU" />
       </Head>
 
       <main className={inter.className}>
