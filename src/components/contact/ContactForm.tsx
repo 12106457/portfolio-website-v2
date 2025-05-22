@@ -208,13 +208,19 @@ const Summary = ({ questions, setQuestions }: SummaryProps) => {
     const subject = formData["subject"] || ""; // Default to empty string if 'subject' is not found
     const body = formData["description"] || ""; // Default to empty string if 'description' is not found
 
-    // Constructing the mailto link with subject, body, and to address
-    const mailto = `mailto:${toAddress}?subject=${encodeURIComponent(
+    // // Constructing the mailto link with subject, body, and to address
+    // const mailto = `mailto:${toAddress}?subject=${encodeURIComponent(
+    //   subject
+    // )}&body=${encodeURIComponent(body)}`;
+
+    // // Open the default email client with the constructed mailto link
+    // window.location.href = mailto;
+
+    const gmailUrl = `https://mail.google.com/mail/?view=cm&fs=1&to=kedarisettysai440@gmail.com&su=${encodeURIComponent(
       subject
     )}&body=${encodeURIComponent(body)}`;
 
-    // Open the default email client with the constructed mailto link
-    window.location.href = mailto;
+    window.open(gmailUrl, "_blank");
 
     // Optionally, clear the form after sending
     setQuestions((prevQuestions) =>
