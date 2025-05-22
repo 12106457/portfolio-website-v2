@@ -62,6 +62,48 @@ export const Projects = () => {
 };
 
 const projects = [
+    {
+    title: "Halo - Fintech Web Application",
+    imgSrc: "/worksImages/Halo/dashboard.png",
+    ytVidSrc: "",
+    code: "", 
+    projectLink: "https://dev-callnotes.strideventures.in/",
+    tech: ["Fintech Platform", "Enterprise-Grade Dashboard"],
+    techStack: ["React", "Next.js", "Tailwind CSS", "Python (Django)", "AWS", "Docker"],
+    description:
+      "Halo is a comprehensive fintech web application built to streamline financial operations for enterprises. As a frontend developer, I was responsible for building responsive, user-friendly interfaces and integrating seamlessly with backend APIs using modern React and Next.js practices.",
+    modalContent: (
+      <>
+        <p>
+          Halo is an enterprise-grade fintech platform designed to simplify financial
+          workflows, reporting, and user management across corporate clients. It was
+          developed with a strong focus on scalability, security, and performance.
+        </p>
+        <p>
+          I contributed primarily to the frontend using React, Next.js, and Tailwind CSS,
+          where I designed and implemented responsive layouts, custom components, and
+          data-rich dashboards. I also handled state management, form validations,
+          API integrations, and UI/UX improvements based on team feedback and QA testing.
+        </p>
+        <p>
+          Key features I worked on include the financial data dashboard, transaction history
+          tables with filters/sorting, real-time notifications, user onboarding flow, and
+          role-based component rendering. The app supports dynamic routing, SEO optimizations,
+          and lazy-loaded components to ensure high performance.
+        </p>
+        <p>
+          The backend was built using Django and deployed on AWS using Docker containers.
+          While my primary focus was on frontend development, I collaborated closely with
+          backend developers to ensure efficient API consumption and error handling.
+        </p>
+        <p>
+          Overall, this project gave me extensive experience in building large-scale
+          production-ready frontend systems with real-time data handling, modular architecture,
+          and cross-functional collaboration in a professional environment.
+        </p>
+      </>
+    ),
+  },
   {
     title: "Media Project Management Dashboard",
     imgSrc: "/worksImages/mediaProject/loginPage.png",
