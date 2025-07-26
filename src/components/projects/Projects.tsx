@@ -268,6 +268,44 @@ const projects = [
       </>
     ),
   },
+  {
+  title: "URL Shortener Platform",
+  imgSrc: "/worksImages/urlShorten/home.png",
+  ytVidSrc: "",
+  code: "https://github.com/12106457/url-shortener-website",
+  projectLink: "https://url-shortener-website-eight.vercel.app/",
+  tech: ["URL Shortening Tool", "Link Redirection"],
+  techStack: ["Next.js", "MongoDB", "Tailwind CSS", "React", "TypeScript"],
+  description:
+    "A modern URL shortening platform built with Next.js and MongoDB, featuring real-time link shortening, error handling, redirection logic, and an elegant, responsive UI. Users can paste long URLs and receive short links instantly, with full support for redirection and validation.",
+  modalContent: (
+    <>
+      <p>
+        This project is a fully functional URL Shortener built using the
+        Next.js App Router architecture. It allows users to paste long URLs and
+        instantly generate a shortened version that can be shared or bookmarked.
+        The application validates inputs in real-time and provides feedback using
+        toast notifications for a smooth user experience.
+      </p>
+      <p>
+        The interface is designed using Tailwind CSS for responsiveness and
+        modern aesthetics. A loading indicator is shown while a request is being
+        processed, ensuring the user understands the app is working. Once the
+        shortened URL is created, it is immediately displayed with a clickable
+        link. Invalid inputs or server errors are gracefully handled with
+        meaningful error messages.
+      </p>
+      <p>
+        Behind the scenes, the app uses MongoDB for data storage, where each
+        shortened URL is associated with a unique ID. A dynamic route reads that
+        ID and redirects the user to the original long URL. This makes it a
+        practical, lightweight solution for businesses, developers, or marketers
+        who need a simple way to manage and share short links.
+      </p>
+    </>
+  ),
+}
+
 ];
 
 export const miniProjects = [
