@@ -14,15 +14,22 @@ export const Stats = () => {
           <div className="flex flex-wrap gap-2 mb-12">
             <Chip>ReactJS</Chip>
             <Chip>NextJS</Chip>
+            <Chip>Redux</Chip>
+            <Chip>Tailwind CSS</Chip>
+            <Chip>HTML</Chip>
+            <Chip>CSS</Chip>
             <Chip>JavaScript</Chip>
             <Chip>TypeScript</Chip>
-            <Chip>Express</Chip>
+            <Chip>Node.js</Chip>
+            <Chip>Express.js</Chip>
             <Chip>MongoDB</Chip>
-            <Chip>Tailwind</Chip>
+            {/* <Chip>MySQL</Chip> */}
+            <Chip>Swagger</Chip>
             <Chip>React Native</Chip>
-            <Chip>Redux</Chip>
             <Chip>GitHub</Chip>
             <Chip>Slack</Chip>
+            <Chip>Click Up</Chip>
+
           </div>
         </div>
       </Reveal>
