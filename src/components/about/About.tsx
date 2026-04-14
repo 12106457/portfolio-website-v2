@@ -16,45 +16,31 @@ export const About = () => {
               <span className="bg-rose-500 text-white py-2 px-3 rounded font-bold mr-1 float-left text-2xl">
                 I
               </span>
-              &apos;m your go-to guy for all things frontend development,
-              shaping seamless digital experiences from the ground up. Based in
-              India, I thrive on turning complex ideas into intuitive user
-              interfaces, crafting solutions that blend aesthetic appeal with
-              functionality
+              &apos;am a Full Stack Developer with hands-on experience building scalable, high-performance web and mobile applications across fintech and service-based platforms. I specialize in React, Next.js, Tailwind CSS, and React Native (Expo), with a strong focus on delivering fast, intuitive, and user-centric interfaces. I have a proven ability to translate complex Figma designs into pixel-perfect, responsive UIs while maintaining clean architecture and performance optimization.
             </p>
           </Reveal>
 
           <Reveal>
             <p>
-              My journey started with the fundamentals of HTML, CSS, and
-              JavaScript but soon expanded into React, Next.js, and Tailwind
-              CSS, leading me to build cutting-edge fintech applications and
-              business tools. I specialize in optimizing fintech web
-              applications by enhancing performance and user experience.
-              Utilizing AG Grid for handling large datasets and implementing
-              drag-and-drop functionality for seamless interactions, I focus on
-              improving efficiency, reducing load times, and making applications
-              more scalable and responsive.
+              In the fintech domain, I worked extensively on frontend systems, developing features such as voice recording, in-app note-taking, and advanced data filtering for large datasets using tools like AG Grid. My work focused on improving usability, reducing load times, and ensuring smooth handling of complex data-driven interfaces.
             </p>
           </Reveal>
 
           <Reveal>
             <p>
-              Currently, I’m a Frontend Developer working on a fintech web
-              application, bringing intuitive UI/UX to life. Beyond my full-time
-              role, I explore new ideas—empowering small shopkeepers with
-              digital commerce solutions and helping businesses adapt to the
-              evolving online market.
+              I further expanded my skill set into mobile development through the OnService application, where I built production-ready features by integrating multiple APIs, including Google Maps and payment services. This experience strengthened my ability to handle real-world use cases involving third-party integrations, location-based services, and transaction workflows.
             </p>
           </Reveal>
 
           <Reveal>
             <p>
-              But beyond the code, I’m a passionate tech explorer, startup
-              enthusiast, and problem solver, always learning and pushing
-              boundaries. Whether it’s refining UI/UX, optimizing performance,
-              or enhancing digital interactions, I thrive on building solutions
-              that make a meaningful impact.
+             Currently, I am contributing as a Full Stack Developer to a US-based background verification platform, where I design and develop APIs, integrate third-party services, and build end-to-end features across both frontend and backend systems. My role involves ensuring seamless data flow, system reliability, and scalable architecture while maintaining code quality and performance standards.
+            </p>
+          </Reveal>
+
+          <Reveal>
+            <p>
+              I focus on writing clean, maintainable code, optimizing performance, and solving real business problems through efficient and scalable solutions. I approach development with an ownership mindset, prioritizing impact, usability, and long-term scalability over just feature delivery.
             </p>
           </Reveal>
         </div>

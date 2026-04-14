@@ -167,11 +167,11 @@ const SocialsBlock = () => (
 const AboutBlock = () => (
   <Block className="col-span-12 text-3xl leading-snug md:col-span-6">
     <p className="text-zinc-400">
-      Building seamless and intuitive web experiences, one project at a time. With{" "}
-      <span className="text-white"> expertise in React, Next.js, and Tailwind CSS</span>,  
-      and a passion for <span className="text-white">frontend innovation</span>,  
-      I turn ideas into high-performance, user-friendly applications.
-    </p>
+  Full Stack Developer building scalable web applications with{" "}
+  <span className="text-white">React, Next.js, Tailwind CSS, Node.js, and Express</span>,  
+  focused on creating <span className="text-white">high-performance, user-centric solutions</span>.  
+  Experience with React Native for cross-platform apps.
+</p>
   </Block>
 );
 

@@ -15,19 +15,27 @@ export const Experience = () => {
 const experience = [
   {
     title: "Factiify",
-    position: "Frontend Developer",
+    position: "Full Stack Developer",
     time: "Sept 2024 - Present",
     location: "On Site, Gurugram",
     description:
-      "As a Frontend Developer in the fintech space, I specialize in building and optimizing web applications using React, Next.js, and Tailwind CSS. I translate Figma designs into pixel-perfect UIs, ensuring a seamless user experience. My work involves implementing new features like voice recording, a notepad for note-taking, and advanced filtering for large datasets. I also integrate APIs to streamline data flow and enhance application functionality. Collaborating with cross-functional teams, I focus on delivering intuitive, high-performance solutions that improve efficiency and user engagement.",
-    tech: [
-      "ReactJS",
-      "NextJS",
-      "Tailwind Css",
-      "Typescript",
-      "State Management Tools",
-      "Team Collaboration",
-    ],
+      "Worked as a Full Stack Developer building scalable web and mobile applications across fintech and service platforms using React, Next.js, Tailwind CSS, and React Native (Expo). Developed pixel-perfect, responsive UIs from Figma designs and implemented features like voice recording, in-app note-taking, and advanced data filtering. Integrated multiple APIs, including Google Maps and payment services, to deliver production-ready mobile features. Currently contributing to a US-based background verification platform by developing APIs, integrating third-party services, and building end-to-end functionality across frontend and backend with a focus on performance, scalability, and clean code.",
+     tech: [
+      "React.js",
+      "Next.js",
+      "React Native (Expo)",
+      "JavaScript (ES6+)",
+      "TypeScript",
+      "Tailwind CSS",
+      "Redux / Context API",
+      "REST API Integration",
+      "Google Maps API",
+      "Payment Gateway Integration",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Git & GitHub"
+    ]
   },
   {
     title: "MyDailyWork",
