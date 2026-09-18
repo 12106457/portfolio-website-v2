@@ -81,11 +81,13 @@ const HeaderBlock = () => (
         className="object-cover "
       />
     </div>
-    <h1 className="mb6 text-4xl font-medium leading-tight">
-      Hi, I'm Sai<span className="text-rose-500">.</span>{" "}
+    
+     <h1 className="mb-4 text-4xl font-medium leading-tight">
+      Hi, I'm <span className="text-white">Sai</span>
+      <span className="text-rose-500">.</span>{" "}
       <span className="text-zinc-400">
-        {/* I design and develop intuitive web experiences that stand out. ✨ */}
-        I create sleek and powerful websites that make an impact. ✨
+        I build modern, scalable, and high-performance web applications that
+        deliver exceptional user experiences.
       </span>
     </h1>
     <OutlineButton
@@ -164,16 +166,47 @@ const SocialsBlock = () => (
   </>
 );
 
-const AboutBlock = () => (
-  <Block className="col-span-12 text-3xl leading-snug md:col-span-6">
-    <p className="text-zinc-400">
-  Full Stack Developer building scalable web applications with{" "}
-  <span className="text-white">React, Next.js, Tailwind CSS, Node.js, and Express</span>,  
-  focused on creating <span className="text-white">high-performance, user-centric solutions</span>.  
-  Experience with React Native for cross-platform apps.
-</p>
-  </Block>
-);
+// const AboutBlock = () => (
+//   <Block className="col-span-12 text-3xl leading-snug md:col-span-6">
+//     <p className="text-zinc-400">
+//   Full Stack Developer building scalable web applications with{" "}
+//   <span className="text-white">React, Next.js, Tailwind CSS, Node.js, and Express</span>,  
+//   focused on creating <span className="text-white">high-performance, user-centric solutions</span>.  
+//   Experience with React Native for cross-platform apps.
+// </p>
+//   </Block>
+// );
+const AboutBlock = () => {
+  const calculateExperience = () => {
+    // Change this to your actual start date
+    const startDate = new Date(2024, 6); 
+    const currentDate = new Date();
+
+    let years = currentDate.getFullYear() - startDate.getFullYear();
+    let months = currentDate.getMonth() - startDate.getMonth();
+
+    if (months < 0) {
+      years--;
+      months += 12;
+    }
+
+    return `${years}.${months}`;
+  };
+
+  return (
+    <Block className="col-span-12 md:col-span-6 flex items-center">
+      <p className="text-3xl leading-snug text-zinc-400">
+        I'm a{" "}
+        <span className="text-white">
+          Full Stack Developer with {calculateExperience()} years of experience
+        </span>{" "}
+        passionate about building fast, scalable, and user-focused digital
+        products. I enjoy transforming complex business requirements into
+        clean, reliable, and production-ready web applications.
+      </p>
+    </Block>
+  );
+};
 
 
 const LocationBlock = () => (
@@ -192,7 +225,7 @@ const CompanyBlock = () => (
     {/* <LinkPreview url="https://maps.app.goo.gl/QgqiJEFLb3M2LS9r5"> */}
       <div className="flex flex-col  align-middle gap-4">
         <FaRegBuilding  className="text-3xl mx-auto" />
-        <p className="text-center text-lg text-zinc-400">Factiify</p>
+        <p className="text-center text-lg text-zinc-400">Factiify Technologies Pvt Ltd</p>
       </div>
     {/* </LinkPreview> */}
   </Block>

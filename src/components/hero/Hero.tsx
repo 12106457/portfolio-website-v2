@@ -10,7 +10,7 @@ const Hero = () => {
         <div className="pointer-events-none relative z-10">
           <Reveal>
             <h1 className="pointer-events-auto text-4xl sm:text-6xl font-black text-zinc-100 md:text-8xl">
-              Hi, I'm Mohith<span className="text-rose-500">.</span>
+              Hi, I'm Sai<span className="text-rose-500">.</span>
             </h1>
           </Reveal>
           <Reveal>
@@ -23,13 +23,7 @@ const Hero = () => {
           </Reveal>
           <Reveal>
             <p className="pointer-events-auto leading-relaxed md:leading-relaxed max-w-xl text-sm text-zinc-300 bg-zinc-950/10 rounded-xl py-3 pr-2 backdrop-blur-lg md:text-base">
-              {/* / Building beautiful Web Experiences <br />/ Front-End Developer
-              at MapUp <br />/ Curious at exploring */}
-              Crafting digital masterpieces, one line at a time. With 2+ years
-              of experience building innovative software solutions, and a
-              passion for UI/UX, I bring a unique blend of technical prowess and
-              creative flair. Explore my work and let's create something
-              extraordinary together.
+              
             </p>
           </Reveal>
           <Reveal>

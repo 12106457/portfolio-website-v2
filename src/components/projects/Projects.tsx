@@ -63,6 +63,113 @@ export const Projects = () => {
 
 const projects = [
   {
+    title: "Background Verification Platform",
+    imgSrc: "/worksImages/background-check/dashboard.png",
+    ytVidSrc: "",
+    code: "",
+    projectLink: "https://businessvalue.app/login",
+    tech: ["HRTech", "Employment Screening Platform"],
+    techStack: [
+      "React",
+      "Node.js",
+      "Express.js",
+      "MySQL",
+      "AWS",
+      "REST API",
+      "SOAP API",
+      "Webhooks",
+    ],
+    description:
+      "An enterprise HRTech platform developed for the US market that automates employee and candidate background verification by integrating with third-party verification providers, replacing traditional manual workflows.",
+    modalContent: (
+      <>
+        <p>
+          The Background Verification Platform is an enterprise HRTech solution
+          developed for the US market to automate employee and candidate
+          background screening. The platform enables organizations to submit
+          verification requests, track their progress, monitor verification
+          status, and access final reports through a centralized dashboard.
+        </p>
+
+        <p>
+          I worked as a Full Stack Developer on this project. On the frontend, I
+          built responsive user interfaces using React, developed reusable
+          components, integrated REST APIs, and managed application state to
+          deliver a seamless user experience.
+        </p>
+
+        <p>
+          On the backend, I developed APIs using Node.js, Express.js, and MySQL,
+          and integrated the platform with third-party background verification
+          providers such as ClearStar using REST APIs, SOAP APIs, and secure
+          webhooks to automate the verification process.
+        </p>
+
+        <p>
+          One of my key contributions was implementing webhook-based
+          asynchronous processing for verification updates. This ensured
+          verification status was synchronized automatically, improved system
+          reliability, and reduced delays caused by manual processing.
+        </p>
+
+        <p>
+          The application was deployed on AWS and strengthened my experience in
+          full-stack development, enterprise API integration, asynchronous
+          workflows, webhook handling, and building secure, production-ready
+          applications.
+        </p>
+      </>
+    ),
+  },
+  {
+    title: "MSI (MySiteInspection)",
+    imgSrc: "/worksImages/msi/dashboard.png",
+    ytVidSrc: "",
+    code: "",
+    projectLink: "https://mysiteinspection.com/",
+    tech: ["Inspection Management", "US-Based Platform"],
+    techStack: [
+      "React",
+      "NestJS",
+      "TypeScript",
+      "MySQL",
+      "REST API",
+      "AWS",
+      "Zoho API",
+      "Webhooks",
+    ],
+    description:
+      "A US-based inspection management platform that manages inspection requests, companies, sites, communication workflows, reports, and scheduled notifications through a centralized system.",
+    modalContent: (
+      <>
+        <p>
+          MSI (MySiteInspection) is a US-based inspection management platform
+          designed to manage inspection requests, companies, sites, reporting,
+          and communication workflows.
+        </p>
+
+        <p>
+          I worked on enhancing the existing application by developing new
+          features, integrating APIs, fixing bugs, and improving existing
+          workflows across the platform.
+        </p>
+
+        <p>
+          I worked across frontend and backend functionality, integrating REST
+          APIs with the existing NestJS backend and MySQL database while working
+          with modules such as inspections, communication, reminders, dashboard,
+          uploads, and case updates.
+        </p>
+
+        <p>
+          The platform also includes automated email workflows, scheduled
+          notifications, webhooks, PDF report generation, file uploads, and
+          external integrations such as Zoho CRM and AWS-based storage.
+        </p>
+      </>
+    ),
+  },
+  {
     title: "Halo - Fintech Web Application",
     imgSrc: "/worksImages/Halo/dashboard.png",
     ytVidSrc: "",
@@ -362,16 +469,18 @@ export const miniProjects = [
   {
     img: "/worksImages/claude-ai/dashboard.png",
     name: "AI Chat Interface Prototype",
-    description:"This is a Claude.ai-inspired AI Chat Dashboard built as a prototype for a company. It includes Google login, a split-screen UI with chat history and user profile on the left, and a responsive AI chat interface on the right. Users can view past chats, interact with AI, and manage their profile details.",
+    description:
+      "This is a Claude.ai-inspired AI Chat Dashboard built as a prototype for a company. It includes Google login, a split-screen UI with chat history and user profile on the left, and a responsive AI chat interface on the right. Users can view past chats, interact with AI, and manage their profile details.",
     live_link: "https://claude-ai-clone-peach.vercel.app/",
     github_link: "https://github.com/12106457/Claude-ai-clone",
-    skills: ["HTML", "CSS", "JavaScript", "React","Tailwind CSS"],
+    skills: ["HTML", "CSS", "JavaScript", "React", "Tailwind CSS"],
     live_icon: "",
   },
   {
     img: "/worksImages/kanban/dashboard.png",
     name: "Kanban Board",
-    description:"This is a Claude.ai-inspired AI Chat Dashboard built as a prototype for a company. It includes Google login, a split-screen UI with chat history and user profile on the left, and a responsive AI chat interface on the right. Users can view past chats, interact with AI, and manage their profile details.",
+    description:
+      "This is a Claude.ai-inspired AI Chat Dashboard built as a prototype for a company. It includes Google login, a split-screen UI with chat history and user profile on the left, and a responsive AI chat interface on the right. Users can view past chats, interact with AI, and manage their profile details.",
     live_link: "https://kanban-board-frontend-mu.vercel.app/",
     github_link: "https://github.com/12106457/Kanban_board",
     skills: ["React", "Node JS", "Express JS", "Mongo DB", "Vercel"],
@@ -380,7 +489,8 @@ export const miniProjects = [
   {
     img: "/worksImages/urlShorten/home.png",
     name: "URL Shortener Platform",
-    description:"A modern URL shortening platform built with Next.js and MongoDB, featuring real-time link shortening, error handling, redirection logic, and an elegant, responsive UI. Users can paste long URLs and receive short links instantly, with full support for redirection and validation.",
+    description:
+      "A modern URL shortening platform built with Next.js and MongoDB, featuring real-time link shortening, error handling, redirection logic, and an elegant, responsive UI. Users can paste long URLs and receive short links instantly, with full support for redirection and validation.",
     live_link: "https://url-shortener-website-eight.vercel.app/",
     github_link: "https://github.com/12106457/url-shortener-website",
     skills: ["Next.js", "MongoDB", "Tailwind CSS", "React", "TypeScript"],
@@ -415,5 +525,4 @@ export const miniProjects = [
     skills: ["HTML", "CSS", "Javascript", "React JS"],
     live_icon: "",
   },
-
 ];
