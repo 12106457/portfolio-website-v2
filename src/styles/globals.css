@@ -14,3 +14,8 @@
 html {
   scroll-behavior: smooth;
 }
+
+p>a{
+  color:rgb(253 164 175 / var(--tw-text-opacity, 1));
+  text-decoration: underline;
+}

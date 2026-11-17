@@ -62,6 +62,87 @@ export const Projects = () => {
 };
 
 const projects = [
+
+  {
+    title: "E-commerce Operations & SaaS Platform",
+    imgSrc: "/worksImages/ecommerce/dashboard.png",
+    ytVidSrc: "",
+    code: "",
+    projectLink: "",
+    tech: ["E-commerce", "Multi-Tenant SaaS", "ERP Platform"],
+    techStack: [
+      "React.js",
+      "Next.js",
+      "JavaScript",
+      "TypeScript",
+      "Tailwind CSS",
+      "Material UI",
+      "Django",
+      "Django REST Framework",
+      "REST API",
+      "Claude AI",
+      "ChatGPT",
+    ],
+    description:
+      "A multi-tenant SaaS platform designed to streamline e-commerce operations through integrated ERP modules, including Fulfillment Operations, Video Management (VMS), Catalog Management, and Order Management (OMS).",
+
+    modalContent: (
+      <>
+        <p>
+          The E-commerce Operations Platform is a SaaS-based solution
+          developed by Factiify Technologies to simplify and centralize
+          e-commerce business operations. Initially developed to manage
+          internal business operations, the platform is evolving into a
+          multi-tenant SaaS product that allows multiple businesses to
+          use the software independently through a subscription-based model.
+        </p>
+
+        <p>
+          The platform supports multiple operational modules, including
+          Fulfillment Operations ERP, Video Management System (VMS),
+          Catalog Management, and Order Management System (OMS).
+          These modules help businesses manage their e-commerce
+          workflows from a centralized platform.
+        </p>
+
+        <p>
+          I work as a Frontend Developer, primarily responsible for
+          developing and enhancing application features using React.js,
+          Next.js, Tailwind CSS, and Material UI. My responsibilities
+          include building responsive interfaces, reusable components,
+          interactive dashboards, data-driven screens, and integrating
+          REST APIs to deliver scalable and user-friendly experiences.
+        </p>
+
+        <p>
+          Along with frontend development, I also contribute to backend
+          development by implementing selected API endpoints using
+          Django and Django REST Framework and collaborating on
+          frontend-backend integration.
+        </p>
+
+        <p>
+          The platform also supports the operational workflows of
+          e-commerce brands such as
+          <a href="https://sagebymala.com/" target="_blank">
+            {" "}Sage by Mala
+          </a>
+          {" "}and
+          <a href="https://shopquietbold.com/" target="_blank">
+            {" "}Quiet Bold
+          </a>.
+        </p>
+
+        <p>
+          I also use AI-assisted development tools such as Claude AI
+          and ChatGPT to accelerate development, troubleshoot issues,
+          explore implementation approaches, and improve development
+          productivity while reviewing and validating the generated code.
+        </p>
+      </>
+    ),
+  },
+
   {
     title: "Background Verification Platform",
     imgSrc: "/worksImages/background-check/dashboard.png",
